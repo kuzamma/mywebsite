@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background text-dark;
+}
+
+.page-container {
+  @apply max-w-6xl mx-auto px-4 py-8 min-h-screen;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-bold mb-8 text-primary relative inline-block;
+}
+
+.section-title::after {
+  content: "";
+  @apply absolute bottom-0 left-0 w-1/2 h-1 bg-secondary rounded-full;
+}
+
+.section-title:hover::after {
+  @apply w-full transition-all duration-300;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-md p-6 transition-all duration-300 hover:shadow-lg relative;
+}
+
+.btn {
+  @apply px-6 py-2 rounded-full font-medium transition-all duration-300;
+}
+
+.btn-primary {
+  @apply bg-primary text-white hover:bg-primary/90;
+}
+
+.btn-secondary {
+  @apply bg-secondary text-white hover:bg-secondary/90;
+}
+
+.btn-accent {
+  @apply bg-accent text-white hover:bg-accent/90;
+}
+
+.nav-link {
+  @apply relative px-3 py-2 text-dark hover:text-primary transition-colors duration-300;
+}
+
+.nav-link::after {
+  content: "";
+  @apply absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300;
+}
+
+.nav-link:hover::after {
+  @apply w-full;
+}
+
+.nav-link.active {
+  @apply text-primary;
+}
+
+.nav-link.active::after {
+  @apply w-full;
+}
+
+/* Custom animations */
+@keyframes float-rotate {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(5deg); }
+}
+
+.animate-float-rotate {
+  animation: float-rotate 6s ease-in-out infinite;
+}
+
+/* Easter egg cursor */
+.cursor-pizza {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🍕</text></svg>") 16 0, auto;
+}
+
+/* Line clamp utilities */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Fade in animation for lazy loaded images */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+/* Accessibility focus styles */
+:focus {
+  @apply outline-none ring-2 ring-primary ring-offset-2;
+}
+
+/* Skip to content link for accessibility */
+.skip-to-content {
+  @apply sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-white focus:text-primary focus:shadow-lg focus:rounded;
+}
