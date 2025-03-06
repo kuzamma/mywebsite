@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="text-center md:text-right">
-            <p>&copy; {currentYear} My Personal Website. All rights reserved.</p>
+            <p>&copy; {currentYear} OKAY NA ITO. All rights reserved.</p>
             <p className="text-sm text-gray-400 mt-1">
               Made with <FaHeart className="inline text-red-500 hover:scale-125 transition-transform cursor-pointer" onClick={handleHeartClick} /> in Biringan City, Philippines
               {showEasterEgg && <span className="ml-2 animate-bounce inline-block">🎉</span>}

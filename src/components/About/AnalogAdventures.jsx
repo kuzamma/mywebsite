@@ -132,7 +132,6 @@ const AnalogAdventures = () => {
     <>
    <div>
         <h2 className="section-title" onClick={handleSecretClick}>My Hobbies & Interests</h2>
-        <p className="text-lg mb-6 italic">Click the section title three times for a secret hobby reveal!</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-16">
           {hobbies.map((hobby, index) => (
             <div

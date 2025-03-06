@@ -54,7 +54,7 @@ const About = () => {
             <h2 className="text-2xl font-bold mb-4 text-primary">Greetings, fellow h0mans!</h2>
             <p className="text-lg mb-4 text-justify">
             I am a self-certified 'Code Wizard’—a title bestowed upon me by a highly questionable online quiz (prestigious, I know)..  My current base of operations? Biringan City, a town so mythical that even Google refuses to acknowledge it.
-             My days are a thrilling rollercoaster of debugging, which is basically like trying to find a specific grain of sand on a beach at night while wearing oven mitts.</p>
+            </p>
             <p className="text-lg mb-4 text-justify">
             I believe that the best code is written in pajamas... My ideal Friday night involves a steaming cup of coffee, a challenging coding project, and the blissful absence of human interaction. (Don't judge me, introverts need love too.) But don't mistake my love for solitude for a lack of personality. I'm a walking paradox: a social recluse with a passion for online communities, a quiet observer with a loud inner monologue, and a tech enthusiast with a surprisingly low tolerance for slow Internet.
             </p>
