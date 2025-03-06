@@ -95,7 +95,7 @@ const DigitalDomain = () => {
         ))}
       </div>
 
-      <h2 className="section-title">Digital Services</h2>
+      <h2 className="section-title">Services</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
         {services.map((service, index) => (
           <div key={index} className="card group hover:shadow-lg transition-all">
@@ -114,7 +114,7 @@ const DigitalDomain = () => {
                     </span>
                   ))}
                 </div>
-                <p className="text-sm text-gray-500 italic">{service.specialNote}</p>
+                
               </div>
             </div>
             <div className="border-t border-gray-100 p-4 bg-gray-50">

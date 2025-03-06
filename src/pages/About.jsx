@@ -45,7 +45,7 @@ const About = () => {
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="p-2 bg-pink-600 text-white rounded-full hover:bg-pink-500 transition-colors">
                 <FaInstagram size={20} />
               </a>
-              <a href="mailto:example@email.com" className="p-2 bg-red-500 text-white rounded-full hover:bg-red-400 transition-colors">
+              <a href="mailto:kuzamayang@gmail.com" className="p-2 bg-red-500 text-white rounded-full hover:bg-red-400 transition-colors">
                 <FaEnvelope size={20} />
               </a>
             </div>
@@ -122,7 +122,7 @@ const About = () => {
             }`}
             aria-selected={activeTab === 'personality'}
           >
-            <FaLaughSquint /> Personality Mosaic
+            <FaLaughSquint /> just hmm ಥ_ಥ
           </button>
         </div>
       </AnimatedSection>

@@ -20,7 +20,7 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />, url: "https://example.com", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />, url: "#", label: "Live Demo" }
       ]
     },
     {
@@ -35,11 +35,11 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />, url: "https://example.com", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />, url: "#", label: "Live Demo" }
       ]
     },
     {
-      title: "Data Visualization Dashboard",
+      title: "Data Visualization ",
       description: "An interactive dashboard for visualizing complex data sets with customizable charts and filters. The client asked for 'something that pops' so I added 37 animations. They meant visually engaging, not literally popping.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       technologies: [
@@ -50,24 +50,10 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />, url: "https://example.com", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />,  url:"", label: "Live Demo" }
       ]
     },
-    {
-      title: "Cloud Infrastructure Manager",
-      description: "Enterprise-level cloud resource management platform. Successfully migrated 100+ servers with only 3 heart attacks and 2 sleepless weeks. The documentation is longer than War and Peace.",
-      image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      technologies: [
-        { icon: <FaReact />, name: "React" },
-        { icon: <SiKubernetes />, name: "Kubernetes" },
-        { icon: <FaDocker />, name: "Docker" },
-        { icon: <FaDocker />, name: "AWS" }
-      ],
-      links: [
-        { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />, url: "https://example.com", label: "Live Demo" }
-      ]
-    },
+   
     {
       title: "AI-Powered Analytics Platform",
       description: "Machine learning platform that predicts business trends. It's right 60% of the time, every time. The other 40% it's just making educated guesses, just like the rest of us.",
@@ -80,7 +66,7 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />, url: "https://example.com", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />,  url:"", label: "Live Demo" }
       ]
     },
     {
@@ -95,12 +81,12 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />, url: "https://example.com", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />, url:"", label: "Live Demo" }
       ]
     },
     {
       title: "Financial Management System",
-      description: "Banking software that handles millions in transactions. The stress of building this aged me 10 years, but hey, at least the decimal points are in the right place now!",
+      description: " The stress of building this aged me 10 years, but hey, at least the decimal points are in the right place now!",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       technologies: [
         { icon: <FaJava />, name: "Java" },
@@ -110,7 +96,7 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />, url: "https://example.com", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />,  url:"", label: "Live Demo" }
       ]
     },
     {
@@ -125,7 +111,7 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />, url: "https://example.com", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />, url:"", label: "Live Demo" }
       ]
     }
   ];
@@ -142,7 +128,7 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />, url: "https://example.com", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />,  url:"", label: "Live Demo" }
       ]
     },
     {
@@ -156,7 +142,7 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />, url: "https://example.com", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />, url:"", label: "Live Demo" }
       ]
     },
     {
@@ -170,7 +156,7 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />, url: "https://example.com", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />,  url:"", label: "Live Demo" }
       ]
     },
     {
@@ -184,23 +170,10 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />, url: "https://example.com", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />, url:"", label: "Live Demo" }
       ]
     },
-    {
-      title: "Plant Care Companion",
-      description: "An app to help keep plants alive. Includes a 'Last Words' feature to document your plant's final moments. RIP, Steve the Succulent (2023-2023).",
-      image: "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      technologies: [
-        { icon: <FaReact />, name: "React" },
-        { icon: <SiFlutter />, name: "Flutter" },
-        { icon: <FaHeart />, name: "Love" }
-      ],
-      links: [
-        { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />, url: "https://example.com", label: "Live Demo" }
-      ]
-    },
+    
     {
       title: "Retro Game Collection",
       description: "A collection of classic game remakes. Spent more time playing them than developing them. For research purposes, obviously.",
@@ -212,23 +185,10 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />, url: "https://example.com", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />,  url:"", label: "Live Demo" }
       ]
     },
-    {
-      title: "Mood Tracker",
-      description: "App that tracks your daily mood with emoji. Found out I'm mostly '😴' with occasional bursts of '🤔' and '🍕'. Very scientific.",
-      image: "https://images.unsplash.com/photo-1499728603263-13726abce5fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      technologies: [
-        { icon: <FaReact />, name: "React" },
-        { icon: <SiFirebase />, name: "Firebase" },
-        { icon: <FaHeart />, name: "Emotions" }
-      ],
-      links: [
-        { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />, url: "https://example.com", label: "Live Demo" }
-      ]
-    },
+    
     {
       title: "Developer Excuse Generator",
       description: "Generates professional-sounding excuses for missed deadlines. 'The code works on my machine' is now available in 12 languages!",
@@ -240,24 +200,13 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />, url: "https://example.com", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />, url:"", label: "Live Demo" }
       ]
     }
   ];
   
   const failedProjects = [
-    {
-      title: "Self-Watering Plant System",
-      description: "An automated system to water my plants. Flooded my apartment on day 3. My landlord still brings it up at every opportunity.",
-      image: "https://images.unsplash.com/photo-1530968033775-2c92736b131e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      technologies: [
-        { icon: <FaFire />, name: "Arduino" },
-        { icon: <FaSkull />, name: "Poor Judgment" }
-      ],
-      links: [
-        { icon: <FaGithub />, url: "https://github.com", label: "Evidence of Failure" }
-      ]
-    },
+    
     {
       title: "AI-Powered Cat Translator",
       description: "Attempted to create an app that translates cat meows into English. Turns out my cat was just saying 'feed me' in 37 different tones.",
@@ -308,43 +257,9 @@ const Portfolio = () => {
         { icon: <FaGithub />, url: "https://github.com", label: "Lost Time" }
       ]
     },
-    {
-      title: "Blockchain Everything",
-      description: "Attempted to put everything on the blockchain. Even tried to put the blockchain on the blockchain. The recursion is still running somewhere.",
-      image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      technologies: [
-        { icon: <SiRust />, name: "Rust" },
-        { icon: <FaSkull />, name: "Blockchain Fever" }
-      ],
-      links: [
-        { icon: <FaGithub />, url: "https://github.com", label: "Chain of Fools" }
-      ]
-    },
-    {
-      title: "Mind Reading IDE",
-      description: "IDE that writes code based on your thoughts. Produced nothing but 'coffee' and 'nap' in an infinite loop.",
-      image: "https://images.unsplash.com/photo-1544652478-6653e09f18a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      technologies: [
-        { icon: <FaPython />, name: "Python" },
-        { icon: <FaSkull />, name: "Brain Fog" }
-      ],
-      links: [
-        { icon: <FaGithub />, url: "https://github.com", label: "Mental Debris" }
-      ]
-    },
-    {
-      title: "Social Media for Plants",
-      description: "Instagram for plants. Failed when we realized plants can't take selfies. Who knew photosynthesis doesn't include photography?",
-      image: "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      technologies: [
-        { icon: <FaReact />, name: "React" },
-        { icon: <SiSwift />, name: "Swift" },
-        { icon: <FaSkull />, name: "Green Thumb Failure" }
-      ],
-      links: [
-        { icon: <FaGithub />, url: "https://github.com", label: "Wilted Dreams" }
-      ]
-    }
+    
+   
+  
   ];
 
   const projects = activeTab === 'professional' ? professionalProjects : 

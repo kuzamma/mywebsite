@@ -48,16 +48,14 @@ const Footer = () => {
           <div className="text-center md:text-right">
             <p>&copy; {currentYear} My Personal Website. All rights reserved.</p>
             <p className="text-sm text-gray-400 mt-1">
-              Made with <FaHeart className="inline text-red-500 hover:scale-125 transition-transform cursor-pointer" onClick={handleHeartClick} /> in Davao City, Philippines
+              Made with <FaHeart className="inline text-red-500 hover:scale-125 transition-transform cursor-pointer" onClick={handleHeartClick} /> in Biringan City, Philippines
               {showEasterEgg && <span className="ml-2 animate-bounce inline-block">🎉</span>}
             </p>
-            {showEasterEgg && (
-              <p className="text-xs text-primary mt-2 animate-pulse">Easter egg found! You're awesome!</p>
-            )}
+            
           </div>
         </div>
         <div className="mt-6 pt-4 border-t border-gray-700 text-center text-xs text-gray-500">
-          <p>This site contains approximately 17 hidden easter eggs. You've found {clickCount >= 3 ? '1' : '0'} so far. Happy hunting!</p>
+          <p>This site contains approximately 17 hidden easter eggs.  Happy hunting!</p>
           <p className="mt-1">Disclaimer: There may or may not actually be 17 easter eggs. I lost count.</p>
         </div>
       </div>

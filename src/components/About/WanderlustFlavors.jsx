@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaUtensils, FaPlane, FaMapMarkedAlt } from 'react-icons/fa';
+import { FaUtensils  } from 'react-icons/fa';
 import AnimatedSection from '../AnimatedSection';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'; // Correct import
 import L from 'leaflet'; // Import Leaflet for custom icons

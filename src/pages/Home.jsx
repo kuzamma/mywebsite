@@ -28,7 +28,7 @@ const Home = () => {
     // Hide the joke after 3 seconds
     setTimeout(() => {
       setShowJoke(false);
-    }, 3000);
+    }, 6000);
   };
   
   // Easter egg - after 5 clicks, show a special message
@@ -62,11 +62,7 @@ const Home = () => {
             My code is like a cat—it does what it wants. 🐱‍💻
           </p>
           <p className="text-lg text-gray-700 mb-8 text-justify">
-          Welcome to my digital playground, where bugs are features, and coffee is the lifeblood. 
-          I'm a programmer, professional bug hunter, and occasional adult. When I'm not wrestling 
-          with code, you can find me googling "how to adult" or debating whether cereal is a soup. 
-          Spoiler: it totally is.. Feel free to explore and judge 
-            my life choices!
+          Welcome to my corner of the internet, where learning never stops. I’m a knowledge seeker with a love for technology, a lover of quiet moments,  and a firm believer that anything is possible. When I’m not avoiding responsibilities, I’m probably googling “how to stop procrastinating.” Spoiler: it’s not going well.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link to="/about" className="btn btn-primary flex items-center gap-2">
@@ -77,7 +73,7 @@ const Home = () => {
             </Link>
           </div>
           <p className="text-xs text-gray-400 mt-4 italic">
-            * Not my actual name. My parents weren't that cruel.
+            * If you’re questioning reality right now, good. You should be. 10% deception.
           </p>
         </motion.div>
         
@@ -160,7 +156,7 @@ const Home = () => {
           <div className="card hover:border-l-4 hover:border-accent group relative overflow-hidden">
             <div className="absolute -right-12 -top-12 bg-accent/10 w-24 h-24 rounded-full transition-all duration-300 group-hover:scale-150"></div>
             <h3 className="text-xl font-bold mb-3 text-accent relative z-10">My Secrets</h3>
-            <p className="text-gray-700 mb-4 relative z-10 text-justify">Classified information that I'm somehow putting on the internet for everyone to see.</p>
+            <p className="text-gray-700 mb-4 relative z-10 text-justify">Classified information that I'm somehow putting on the internet.</p>
             <Link to="/secret" className="text-accent hover:underline flex items-center gap-1 relative z-10">
               Uncover secrets <FaArrowRight size={14} />
             </Link>

@@ -7,6 +7,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Secret from './pages/Secret';
 import Musings from './pages/Musings';
+import MusingDetail from './components/MusingDetail';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/secret" element={<Secret />} />
             <Route path="/musings" element={<Musings />} />
+            <Route path="/musings/:id" element={<MusingDetail />} />
           </Routes>
         </main>
         <Footer />

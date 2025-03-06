@@ -72,25 +72,34 @@ const PersonalityMosaic = () => {
   const mediaFavorites = {
     books: [
       { title: "Atomic Habits", author: "James Clear", 
-        cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", 
+        cover: "/images/books/ah.jfif",
         rating: 5, 
         review: "Life-changing approach to building good habits and breaking bad ones." },
-      { title: "The Pragmatic Programmer", author: "Andrew Hunt & David Thomas", cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", 
-        rating: 5, 
-        review: "Essential reading for any software developer." },
-      { title: "Dune", author: "Frank Herbert", cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", 
-      rating: 4, 
-      review: "Epic sci-fi masterpiece with incredible world-building.  " }
+     { title: "Th Courage to be Disliked", author: "Fumitake Koga and Ichiro Kishimi", 
+          cover: "/images/books/tctbd.jfif",
+          rating: 5, 
+          review: "True freedom comes when you stop seeking approval and accept that some people may dislike or disapprove of you." },
+          { title: "The Seat of the Soul", author: "Gary Zukav", 
+            cover: "/images/books/tsots.jfif",
+            rating: 5, 
+            review: "The book emphasizes the importance of living with intention, compassion, and awareness, and it provides a framework for understanding life's deeper purpose." }
+          
     ],
+    
     movies: [
-      { title: "The Matrix", year: 1999, poster: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", rating: 5 },
-      { title: "Inception", year: 2010, poster: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", rating: 5 },
-      { title: "The Lord of the Rings", year: 2001, poster: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", rating: 5 }
+      { title: "The 100", year:" 2014-2020", poster: "/images/movies/100.webp", rating: 5 },
+      { title: "The Age of Adaline", year: 2015, poster: "/images/movies/adaline.jfif", rating: 5 },
+      { title: "Lucy", year: 2014, poster: "/images/movies/lucy.jfif", rating: 5 },
+      { title: "The Hunger Games", year: "2012-2015", poster: "/images/movies/thg.jfif", rating: 5 }, 
+      { title: "The Gorge", year: "2025", poster: "/images/movies/tg.jfif", rating: 5 }, 
+      { title: "Cleaner", year: "2025", poster: "/images/movies/cleaner.jfif", rating: 5 }, 
     ],
+
+
     music: [
-      { artist: "Radiohead", genre: "Alternative Rock", album: "OK Computer", cover: "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-      { artist: "Daft Punk", genre: "Electronic", album: "Random Access Memories", cover: "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-      { artist: "Kendrick Lamar", genre: "Hip Hop", album: "To Pimp a Butterfly", cover: "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" }
+      { artist: "Bruno Major", genre: "Alternative/Indie, Rock", album: "To Let A Good Thing Die", cover: "/images/music/bruno.webp" },
+      { artist: "Chase Atlantic", genre: "Alternative/Indie", album: "Phases, and Chase Atlantic", cover: "/images/music/ca.jfif" },
+      { artist: "NIKI", genre: "Pop music, Folk-pop, Alternative rock", album: "Nicole", cover: "/images/music/niki.jfif" }
     ]
   };
 

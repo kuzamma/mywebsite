@@ -118,31 +118,7 @@ const AnalogAdventures = () => {
     },
   ];
 
-  // Media favorites
-  const mediaFavorites = {
-    books: [
-      { title: "Atomic Habits", author: "James Clear", 
-        cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", 
-        rating: 5, 
-        review: "Life-changing approach to building good habits and breaking bad ones." },
-      { title: "The Pragmatic Programmer", author: "Andrew Hunt & David Thomas", cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", 
-        rating: 5, 
-        review: "Essential reading for any software developer." },
-      { title: "Dune", author: "Frank Herbert", cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", 
-      rating: 4, 
-      review: "Epic sci-fi masterpiece with incredible world-building.  " }
-    ],
-    movies: [
-      { title: "The Matrix", year: 1999, poster: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", rating: 5 },
-      { title: "Inception", year: 2010, poster: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", rating: 5 },
-      { title: "The Lord of the Rings", year: 2001, poster: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", rating: 5 }
-    ],
-    music: [
-      { artist: "Radiohead", genre: "Alternative Rock", album: "OK Computer", cover: "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-      { artist: "Daft Punk", genre: "Electronic", album: "Random Access Memories", cover: "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-      { artist: "Kendrick Lamar", genre: "Hip Hop", album: "To Pimp a Butterfly", cover: "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" }
-    ]
-  };
+
 
   const secretHobby = { 
     icon: <FaQuestionCircle />, 
@@ -241,8 +217,21 @@ const AnalogAdventures = () => {
         <h2 className="section-title">Reading List</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4 mb-12">
           {[
-            { title: "Atomic Habits", author: "James Clear", cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", status: "Read", rating: 5 },
-            { title: "The Pragmatic Programmer", author: "Andrew Hunt", cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", status: "Read", rating: 5 },
+             { title: "Atomic Habits", author: "James Clear", 
+              cover: "/images/books/ah.jfif",
+              status: "Read",
+              rating: 5 },
+           { title: "Th Courage to be Disliked", author: "Fumitake Koga and Ichiro Kishimi", 
+                cover: "/images/books/tctbd.jfif",
+                status: "Read",
+                rating: 5, 
+                review: "True freedom comes when you stop seeking approval and accept that some people may dislike or disapprove of you." },
+                { title: "A Flicker in the Dark", author: "Stacy Willingham", 
+                  cover: "/images/books/fliker.jfif",
+            status: "Read",
+                  rating: 5
+                  },
+
             { title: "Dune", author: "Frank Herbert", cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", status: "Read", rating: 4 },
             { title: "Project Hail Mary", author: "Andy Weir", cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", status: "Reading", rating: null },
             { title: "The Psychology of Money", author: "Morgan Housel", cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", status: "To Read", rating: null },
@@ -277,7 +266,7 @@ const AnalogAdventures = () => {
                   <p className="font-bold mb-1">{book.title}</p>
                   <p className="text-xs mb-2">by {book.author}</p>
                   {book.status === "Read" ? (
-                    <p className="italic text-xs">"Great read about building better habits through small changes."</p>
+                    <p className="italic text-xs">" "</p>
                   ) : (
                     <p className="italic text-xs">On my {book.status === "Reading" ? "currently reading" : "to-read"} list</p>
                   )}
