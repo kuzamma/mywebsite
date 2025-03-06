@@ -51,30 +51,33 @@ const Home = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            <span className="text-dark">Hello, I'm</span>
-            <br />
-            <span className="text-primary">Yours 🤭</span>
-            <span className="text-xs align-top ml-1 text-secondary">*</span>
-          </h1>
-          <p className="text-xl md:text-2xl text-gray-600 mb-6 font-handwriting">
-            I code, therefore I caffeine <br />
-            My code is like a cat—it does what it wants. 🐱‍💻
-          </p>
-          <p className="text-lg text-gray-700 mb-8 text-justify">
-          Welcome to my corner of the internet, where learning never stops. I’m a knowledge seeker with a love for technology, a lover of quiet moments,  and a firm believer that anything is possible. When I’m not avoiding responsibilities, I’m probably googling “how to stop procrastinating.” Spoiler: it’s not going well.
-          </p>
-          <div className="flex flex-wrap gap-4">
-            <Link to="/about" className="btn btn-primary flex items-center gap-2">
-              About Me <FaArrowRight />
-            </Link>
-            <Link to="/portfolio" className="btn btn-secondary flex items-center gap-2">
-              My Work <FaArrowRight />
-            </Link>
-          </div>
-          <p className="text-xs text-gray-400 mt-4 italic">
-            * If you’re questioning reality right now, good. You should be. 10% deception.
-          </p>
+         <h1 className="text-4xl md:text-6xl font-bold mb-4">
+          <span className="text-dark">Hello, I'm</span>
+          <br />
+          <span className="text-primary">Yours 🤭</span>
+          <span className="text-xs align-top ml-1 text-secondary">*</span>
+        </h1>
+        <p className="text-xl md:text-2xl text-gray-600 mb-6 font-handwriting">
+          I code, therefore I caffeine <br />
+          My code is like a cat—it does what it wants. 🐱‍💻
+        </p>
+        <p className="text-lg text-gray-700 mb-8 text-justify">
+          Welcome to my corner of the internet, where learning never stops. I’m a knowledge seeker with a love for technology, a lover of quiet moments, and a firm believer that anything is possible. When I’m not avoiding responsibilities, I’m probably googling “how to stop procrastinating.” Spoiler: it’s not going well.
+        </p>
+        <div className="flex flex-wrap gap-4">
+          <Link to="/about" className="btn btn-primary flex items-center gap-2">
+            About Me <FaArrowRight />
+          </Link>
+          <Link to="/portfolio" className="btn btn-secondary flex items-center gap-2">
+            My Work <FaArrowRight />
+          </Link>
+        </div>
+        <p className="text-xs text-gray-400 mt-4 italic">
+          * If you’re questioning reality right now, good. You should be. 10% deception.
+        </p>
+        <p className="text-sm text-gray-500 mt-4 font-mono">
+        Darling, mobile mode is cute and all, but desktop mode is where I *shine*. 💅 It’s like choosing between a tricycle and a Ferrari. Don’t make me cry. 😭
+        </p>
         </motion.div>
         
         <motion.div 

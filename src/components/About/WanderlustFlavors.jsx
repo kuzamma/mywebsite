@@ -195,9 +195,9 @@ const WanderlustFlavors = () => {
       <h2 className="section-title">Local Favorites</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-12">
         {[
-          { name: "Café Demitasse", type: "Coffee Shop", location: "Davao City", specialty: "Pour-over coffee and homemade pastries", why: "My second office where the baristas know my order before I reach the counter." },
-          { name: "Lola Mia's Eatery", type: "Local Restaurant", location: "Davao City", specialty: "Traditional Filipino breakfast", why: "Best tapsilog in town, and Lola Mia still remembers my name even though I only visit twice a year." },
-          { name: "Baywalk Sunset Spot", type: "Outdoor Space", location: "Davao City", specialty: "Fresh seafood from nearby vendors", why: "Perfect place to watch the sunset while enjoying grilled fish and cold beer." }
+          { name: "Café Demitasse", type: "Coffee Shop", location: "", specialty: "Pour-over coffee and homemade pastries", why: "My second office where the baristas know my order before I reach the counter." },
+          { name: "Lola Mia's Eatery", type: "Local Restaurant", location: "", specialty: "Traditional Filipino breakfast", why: "Best tapsilog in town, and Lola Mia still remembers my name even though I only visit twice a year." },
+          { name: "Baywalk Sunset Spot", type: "Outdoor Space", location: "", specialty: "Fresh seafood from nearby vendors", why: "Perfect place to watch the sunset while enjoying grilled fish and cold beer." }
         ].map((place, index) => (
           <div key={index} className="card hover:shadow-md transition-shadow">
             <div className="p-4">

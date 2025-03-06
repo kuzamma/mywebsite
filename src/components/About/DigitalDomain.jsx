@@ -14,7 +14,7 @@ const DigitalDomain = () => {
     { icon: <FaNodeJs className="text-green-600" />, name: "Node.js", level: 85 },
     { icon: <SiMongodb className="text-green-500" />, name: "MongoDB", level: 75 },
     { icon: <SiFirebase className="text-yellow-600" />, name: "Firebase", level: 70 },
-    { icon: <FaPython className="text-blue-700" />, name: "Python", level: 65 },
+    { icon: <FaPython className="text-blue-700" />, name: "Python", level: 85 },
     { icon: <FaFigma className="text-purple-500" />, name: "Figma", level: 80 },
     { icon: <FaGithub className="text-gray-800" />, name: "Git/GitHub", level: 90 },
   ];
@@ -128,39 +128,7 @@ const DigitalDomain = () => {
 
       
 
-      <h2 className="section-title">Featured Projects</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-        {featuredProjects.map((project, index) => (
-          <div key={index} className="card overflow-hidden group hover:shadow-lg transition-all">
-            <div className="relative overflow-hidden h-48">
-              <img 
-                src={project.image} 
-                alt={project.title} 
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end">
-                <div className="p-4 text-white">
-                  <p className="font-bold">{project.title}</p>
-                </div>
-              </div>
-            </div>
-            <div className="p-4">
-              <h3 className="font-bold text-lg mb-2">{project.title}</h3>
-              <p className="text-gray-700 text-sm mb-3">{project.description}</p>
-              <div className="flex flex-wrap gap-2 mb-3">
-                {project.technologies.map((tech, techIndex) => (
-                  <span key={techIndex} className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-full">
-                    {tech}
-                  </span>
-                ))}
-              </div>
-              <a href={project.link} className="text-primary hover:underline flex items-center gap-1 text-sm">
-                View details <FaChevronRight size={12} />
-              </a>
-            </div>
-          </div>
-        ))}
-      </div>
+      
     </div>
   );
 };

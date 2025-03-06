@@ -53,11 +53,10 @@ const About = () => {
           <div className="md:col-span-2">
             <h2 className="text-2xl font-bold mb-4 text-primary">Greetings, fellow h0mans!</h2>
             <p className="text-lg mb-4 text-justify">
-            I am a self-certified 'Code Wizard' (the certification came from a free online quiz, but details, details). I currently haunt the digital back alleys of Biringan City, Philippines—a 
-            place so legendary, even Google Maps gets lost.
+            I am a self-certified 'Code Wizard’—a title bestowed upon me by a highly questionable online quiz (prestigious, I know)..  My current base of operations? Biringan City, a town so mythical that even Google refuses to acknowledge it.
              My days are a thrilling rollercoaster of debugging, which is basically like trying to find a specific grain of sand on a beach at night while wearing oven mitts.</p>
             <p className="text-lg mb-4 text-justify">
-            I believe that the best code is written in pajamas, and I'm a firm advocate for the "work-from-home" lifestyle.  My ideal Friday night involves a steaming cup of coffee, a challenging coding project, and the blissful absence of human interaction. (Don't judge me, introverts need love too.) But don't mistake my love for solitude for a lack of personality. I'm a walking paradox: a social recluse with a passion for online communities, a quiet observer with a loud inner monologue, and a tech enthusiast with a surprisingly low tolerance for slow Internet.
+            I believe that the best code is written in pajamas... My ideal Friday night involves a steaming cup of coffee, a challenging coding project, and the blissful absence of human interaction. (Don't judge me, introverts need love too.) But don't mistake my love for solitude for a lack of personality. I'm a walking paradox: a social recluse with a passion for online communities, a quiet observer with a loud inner monologue, and a tech enthusiast with a surprisingly low tolerance for slow Internet.
             </p>
             <p className="text-lg mb-4 text-justify">
               When I'm not busy with work, you'll find me attempting to learn a local craft, which inevitably ends in a hilarious fail, or trying to find the best spot to watch the sunset, while my phone is at 2% battery, 
@@ -134,119 +133,8 @@ const About = () => {
       {activeTab === 'personality' && <PersonalityMosaic />}
 
 
-  {/*
-      Contact Section
-      <AnimatedSection delay={0.6}>
-        <h2 className="section-title">Get In Touch</h2>
-        <div className="card mb-16">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div>
-              <h3 className="text-xl font-bold mb-4">Let's Connect</h3>
-              <p className="text-gray-700 mb-6">
-                Whether you want to discuss a project, share thoughts on my latest blog post, or just say hello, I'd love to hear from you! 
-                I promise to respond within 48 hours, unless I'm camping in a remote location with no signal, in which case I'll respond 
-                when I return to civilization.
-              </p>
-              
-              <div className="space-y-4">
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center text-primary">
-                    <FaEnvelope />
-                  </div>
-                  <div>
-                    <p className="font-medium">Email</p>
-                    <a href="mailto:example@email.com" className="text-primary hover:underline">example@email.com</a>
-                  </div>
-                </div>
-                
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center text-primary">
-                    <FaLinkedin />
-                  </div>
-                  <div>
-                    <p className="font-medium">LinkedIn</p>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">linkedin.com/in/yourname</a>
-                  </div>
-                </div>
-                
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center text-primary">
-                    <FaTwitter />
-                  </div>
-                  <div>
-                    <p className="font-medium">Twitter</p>
-                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">@yourhandle</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div>
-              <h3 className="text-xl font-bold mb-4">Send a Message</h3>
-              <form className="space-y-4">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Name</label>
-                  <input 
-                    type="text" 
-                    id="name" 
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
-                    placeholder="Your name"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">Email</label>
-                  <input 
-                    type="email" 
-                    id="email" 
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
-                    placeholder="your.email@example.com"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
-                  <textarea 
-                    id="message" 
-                    rows="4" 
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
-                    placeholder="Your message..."
-                  ></textarea>
-                </div>
-                <button 
-                  type="submit" 
-                  className="btn btn-primary"
-                >
-                  Send Message
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </AnimatedSection> */}
-
-      {/* Final CTA */}
-      <AnimatedSection delay={0.7}>
-        <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-lg p-8 text-center">
-          <h3 className="text-2xl font-bold mb-4">Thanks for getting to know me!</h3>
-          <p className="text-lg mb-6">
-            If you've made it this far, you deserve a medal for patience! Feel free to explore the rest of my website
-            to see my work, read my blog, or discover more about my projects.
-          </p>
-          <div className="flex justify-center gap-4 flex-wrap">
-            <a href="/portfolio" className="btn btn-primary">
-              View My Portfolio
-            </a>
-            <a href="/musings" className="btn btn-secondary">
-              Read My Musings
-            </a>
-          </div>
-          <div className="mt-6 flex justify-center">
-            <div className="flex items-center gap-2 text-gray-600">
-              <FaHeart className="text-red-500 animate-pulse" />
-             { /*<p className="text-sm">Made with love in Davao City, Philippines</p>*/}
-            </div>
-          </div>
-        </div>
-      </AnimatedSection>
+  
+      
     </div>
   );
 };

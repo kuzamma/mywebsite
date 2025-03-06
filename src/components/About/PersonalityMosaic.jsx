@@ -61,11 +61,13 @@ const PersonalityMosaic = () => {
   const philosophy = {
     title: "My Personal Philosophy",
     principles: [
-      "Curiosity is the foundation of growth. Never stop asking questions.",
-      "Balance technical excellence with human connection. Code for people, not just machines.",
-      "Embrace failure as the best teacher. Perfect success teaches you nothing.",
-      "Share knowledge freely. Your success is measured by how many people you help succeed.",
-      "Find joy in the journey, not just the destination."
+      "Curiosity didn’t kill the cat—it just made it Google things at 2 a.m.  Never stop asking questions, even if the answers make you question your life choices.",
+      "Life’s too short to take yourself seriously. Laugh at your mistakes, your awkward moments, and that time you waved back at someone who wasn’t waving at you. 😂",
+      "Spread kindness like confetti, but don’t let anyone sweep you under the rug.  You’re a human, not a welcome mat. ",
+      "Perfect is boring. Progress is messy, chaotic, and beautiful—like a toddler finger-painting.  Celebrate the mess; it means you’re moving forward. ",
+      "You’re not a to-do list. Your value isn’t measured by how much you accomplish in a day. Sometimes, just existing is enough. ",
+      "If you’re going to fail, do it with style. Wear a cape, blast some music, and own it. Failure is just success in a funny costume. ",
+      "You’re not a finished product; you’re a masterpiece in the making. 🎨 Embrace the imperfections—they’re what make you, you."
     ]
   };
 
@@ -237,53 +239,74 @@ const PersonalityMosaic = () => {
  
 
 
-<h2 className="section-title">Personal Anecdotes & Nonsense</h2>
+    <h2 className="section-title">Personal Anecdotes & Nonsense</h2>
 <div className="card mb-16">
-  <h3 className="text-xl font-bold mb-4 text-secondary">The Time I Almost Became Famous</h3>
+  <h3 className="text-xl font-bold mb-4 text-secondary">That One Time I Accidentally Joined a Parade</h3>
   <p className="mb-4">
-    Once upon a time, I was hiking in the mountains near Davao when I stumbled upon what I thought was a shortcut. 
-    Three hours later, I found myself in a completely different barangay, having accidentally crashed a local wedding! 
-    The bride thought I was the photographer's assistant, and I spent the next two hours taking photos with someone's 
-    iPhone. They loved my "artistic vision" (aka my shaky hands) so much that they invited me to their family reunion. 
-    I still get Christmas cards from them addressed to "Camera Guy."
+    I was minding my own business, walking through town, when I found myself in the middle of what I assumed was just 
+    a particularly enthusiastic crowd. Turns out, I had seamlessly merged into an actual parade. People cheered, 
+    someone handed me a flag, and for a solid ten minutes, I waved at strangers like I was supposed to be there. 
+    A local newspaper even snapped a photo. To this day, I have no idea what event I proudly marched in.
   </p>
   
   <h3 className="text-xl font-bold mb-4 text-secondary mt-6">My Unusual Talent</h3>
   <p className="mb-4">
     I can recite the alphabet backwards in under 10 seconds while balancing a spoon on my nose. It's a completely 
     useless talent that I perfected during long commutes and power outages. So far, it has impressed exactly zero 
-    people at parties, but my dog seems mildly entertained. My dating profile lists it as my most marketable skill.
+    people at parties, but my dog seems mildly entertained. 
   </p>
   
-  <h3 className="text-xl font-bold mb-4 text-secondary mt-6">A Philosophical Thought</h3>
-  <p className="mb-4">
-    What if socks are actually foot hats, and we've been thinking about them all wrong this entire time? 
-    And if that's true, are shoes just foot houses? Does that make shoelaces the door locks? This is the kind of 
-    nonsense that keeps me up at night, along with wondering if my refrigerator feels disappointed when I open it 
-    for the fifth time hoping food has magically appeared.
-  </p>
-  
-  <h3 className="text-xl font-bold mb-4 text-secondary mt-6">My Childhood Dream</h3>
+  <h3 className="text-xl font-bold mb-4 text-secondary mt-6">The Career That Never Was</h3>
   <p>
-    As a child, I was convinced I would grow up to be a professional bubble wrap popper. I had a five-year plan and 
-    everything: start with small packaging, work my way up to industrial-sized rolls, eventually open my own bubble 
-    wrap popping meditation studio. Sadly, the industry wasn't as lucrative as I had hoped, so I pivoted to web development 
-    instead. But I still pop bubble wrap with professional-level enthusiasm whenever I get the chance. My neighbors have 
-    filed noise complaints.
+    As a child, I was absolutely convinced I was destined to be a professional namer of things. Products, planets, 
+    exotic fish—you name it (or rather, I would). I even practiced by renaming everyday objects just for fun. 
+    Chairs became “sit platforms.” Lollipops? “Flavor sticks.” Unfortunately, society didn’t seem to recognize 
+    this as a real career path, so here I am. But I still stand by my belief that we should call microwaves “snack zappers.”
   </p>
+
+
   
   <div className="mt-8 p-4 bg-gray-100 rounded-lg">
-    <h4 className="font-bold text-lg mb-2">Fun Facts That May or May Not Be True</h4>
-    <ul className="list-disc pl-5 space-y-2">
-      <li>I once won a staring contest with my own reflection. It took 3 hours.</li>
-      <li>My houseplants have names and backstories. Gerald the fern is going through a mid-life crisis.</li>
-      <li>I can type 120 words per minute, but 80% of them are typos.</li>
-      <li>I've never seen my elbows directly. Neither have you. Think about it.</li>
-      <li>I believe that dinosaurs aren't extinct—they just got really good at hiding.</li>
-    </ul>
-  </div>
+  <h4 className="font-bold text-lg mb-2">Fun Facts That May or May Not Be True</h4>
+  <ul className="list-disc pl-5 space-y-2">
+    <li>I can type 120 words per minute, but 80% of them are typos.</li>
+    <li>If you’re flirting with me, make it obvious. I’m great at many things, but detecting romantic interest isn’t one of them. 😅</li>
+    <li>I once tried to high-five a mime. It was the most awkward silence of my life.</li>
+    <li>I’m convinced that socks are secretly plotting to escape. That’s why they always go missing.</li>
+    <li>I’ve mastered the art of pretending to listen while mentally planning my next meal.</li>
+    <li>I once Googled “how to Google” because I forgot how to spell “Google.”</li>
+    <li>I believe that pineapple on pizza is a hill worth dying on. 🍍🍕</li>
+    <li>I’ve accidentally waved back at strangers who weren’t waving at me more times than I’d like to admit.</li>
+    <li>I’m pretty sure my cat judges me more than my boss does.</li>
+    <li>I’m convinced that Wi-Fi has a personal vendetta against me.</li>
+  </ul>
+</div>
 </div>
 </AnimatedSection>
+
+{/* Final CTA */}
+<AnimatedSection delay={0.7}>
+        <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-lg p-8 text-center">
+          <h3 className="text-2xl font-bold mb-4"> Roses are red, violets are blue, if you’re still here, I think you’re into me too. 💕 kimii</h3>
+          <p className="text-lg mb-6">
+           Nice. 😎 I mean, I’m not saying you have a crush on me or anything, but... you’re definitely into my vibe.
+          </p>
+          {/*v className="flex justify-center gap-4 flex-wrap">
+            <a href="/portfolio" className="btn btn-primary">
+              View My Portfolio
+            </a>
+            <a href="/musings" className="btn btn-secondary">
+              Read My Musings
+            </a>
+          </div>*/}
+          <div className="mt-6 flex justify-center">
+            <div className="flex items-center gap-2 text-gray-600">
+              <FaHeart className="text-red-500 animate-pulse" />
+             { /*<p className="text-sm">Made with love in Davao City, Philippines</p>*/}
+            </div>
+          </div>
+        </div>
+      </AnimatedSection>
 </>
 
   );

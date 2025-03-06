@@ -29,10 +29,12 @@ const Musings = () => {
     <div className="page-container">
       <AnimatedSection>
         <h1 className="section-title">Musings</h1>
-        <p className="text-lg text-gray-700 mb-8">
-          Welcome to my corner of introspection. Here, I share thoughts, reflections, and occasional epiphanies 
-          that cross my mind. Some profound, some peculiar, all authentically me.
-        </p>
+        <p className="text-lg md:text-xl text-gray-700 mb-8 px-6 py-4 border-l-4 bg-gray-100 rounded-lg shadow-sm">
+  <span className="font-semibold text-primary">Welcome</span> to my collection of thoughts—some deep, some weird, and some just me questioning why we call it 
+  <span className="italic">‘fast food’</span> when I’m still waiting 15 minutes.
+</p>
+
+
       </AnimatedSection>
 
       <div className="space-y-6">
