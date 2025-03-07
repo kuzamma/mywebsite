@@ -87,15 +87,50 @@ const Home = () => {
           </p>
           <p className="text-sm text-gray-500 mt-4 font-mono">{deviceMessage}</p>
         </motion.div>
-      </div>
+      
 
+      <motion.div 
+          className="md:w-1/2 flex justify-center"
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8 }}
+        >
+          <div className="relative">
+            <div 
+              className="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center animate-float cursor-pointer relative"
+              onClick={handlePhotoClick}
+            >
+              <img 
+                src="/images/s.jfif"
+                alt="Profile" 
+                className="w-56 h-56 md:w-72 md:h-72 rounded-full object-cover border-4 border-white transition-all duration-300 hover:scale-105"
+              />
+              {showJoke && (
+                <motion.div 
+                  className="absolute -top-16 left-0 right-0 bg-white p-3 rounded-lg shadow-lg text-center"
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                >
+                  <p className="text-sm font-handwriting">{getPhotoMessage()}</p>
+                  <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-4 h-4 bg-white rotate-45"></div>
+                </motion.div>
+              )}
+            </div>
+            <div className="absolute -bottom-4 -right-4 bg-white p-3 rounded-lg shadow-lg">
+              <p className="font-handwriting text-lg">Biringan City, PH</p>
+              <p className="text-xs text-gray-400">(where dreams come to procrastinate)</p>
+            </div>
+          </div>
+        </motion.div>
+      </div>
 
 <AnimatedSection className="my-16" delay={0.2}>
 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
   <div className="card hover:border-l-4 hover:border-primary group relative overflow-hidden">
     <div className="absolute -right-12 -top-12 bg-primary/10 w-24 h-24 rounded-full transition-all duration-300 group-hover:scale-150"></div>
     <h3 className="text-xl font-bold mb-3 text-primary relative z-10">About Me</h3>
-    <p className="text-gray-700 mb-4 relative z-10 text-justify">Discover who I am, my quirks, and why I believe cereal is a soup. Spoiler: I'm weird.</p>
+    <p className="text-gray-700 mb-4 relative z-10 text-justify">Discover who I am, my quirks, and why I believe cereal is a soup. I'm weird.</p>
     <Link to="/about" className="text-primary hover:underline flex items-center gap-1 relative z-10">
       Learn more <FaArrowRight size={14} />
     </Link>
@@ -119,7 +154,7 @@ const Home = () => {
   <div className="card hover:border-l-4 hover:border-primary group relative overflow-hidden">
     <div className="absolute -right-12 -top-12 bg-primary/10 w-24 h-24 rounded-full transition-all duration-300 group-hover:scale-150"></div>
     <h3 className="text-xl font-bold mb-3 text-primary relative z-10">My Musings</h3>
-    <p className="text-gray-700 mb-4 relative z-10 text-justify">Philosophical thoughts, reflections, and occasional epiphanies from my overactive mind.</p>
+    <p className="text-gray-700 mb-4 relative z-10 ">Philosophical thoughts, reflections, and occasional epiphanies from my overactive mind.</p>
     <Link to="/musings" className="text-primary hover:underline flex items-center gap-1 relative z-10">
       Read musings <FaArrowRight size={14} />
     </Link>
@@ -131,7 +166,7 @@ const Home = () => {
   <div className="card hover:border-l-4 hover:border-accent group relative overflow-hidden">
     <div className="absolute -right-12 -top-12 bg-accent/10 w-24 h-24 rounded-full transition-all duration-300 group-hover:scale-150"></div>
     <h3 className="text-xl font-bold mb-3 text-accent relative z-10">My Secrets</h3>
-    <p className="text-gray-700 mb-4 relative z-10 text-justify">Classified information that I'm somehow putting on the internet.</p>
+    <p className="text-gray-700 mb-4 relative z-10 ">Classified information that I'm somehow putting on the internet.</p>
     <Link to="/secret" className="text-accent hover:underline flex items-center gap-1 relative z-10">
       Uncover secrets <FaArrowRight size={14} />
     </Link>
