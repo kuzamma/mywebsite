@@ -67,7 +67,11 @@ const WanderlustFlavors = () => {
   return (
     <div>
       <h2 className="section-title">Travel Adventures</h2>
+      <p className="text-gray-500 italic">
+        Don’t take anything too seriously in this section—some of it is just my delulu self, hahaha!
+      </p>
       <div className="mb-12">
+
         {/* Interactive Map */}
         <div className="card p-0 overflow-hidden mb-8">
           <div className="h-64 md:h-80 bg-gray-200 relative">
@@ -187,6 +191,7 @@ const WanderlustFlavors = () => {
             </p>
             <p className="text-gray-700">
               The winner? A tiny shop in Shimokitazawa where the chef had been perfecting his tonkotsu broth for 25 years. When I told him in broken Japanese that his ramen was the best I'd ever had, he simply nodded and said, "Of course." That confidence was well-earned. I still dream about that bowl of ramen.
+              
             </p>
           </div>
         </div>

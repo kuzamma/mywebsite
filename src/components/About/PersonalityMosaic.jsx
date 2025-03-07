@@ -44,10 +44,11 @@ const PersonalityMosaic = () => {
 
   const quotes = [
     { text: "The best way to predict the future is to create it.", author: "Abraham Lincoln" },
-    { text: "Life is what happens when you're busy making other plans.", author: "John Lennon" },
+    { text: "When you change the way you look at things, the things you look at change." , author: "Wayne Dyer"},
     { text: "The only way to do great work is to love what you do.", author: "Steve Jobs" },
-    { text: "In the middle of difficulty lies opportunity.", author: "Albert Einstein" },
-    { text: "The best time to plant a tree was 20 years ago. The second best time is now.", author: "Chinese Proverb" }
+    { text: "We do not see things as they are, we see them as we are." , author: "Anaïs Nin"},
+    { text: "Character is how you treat those who can do nothing for you." , author: "Johann Wolfgang von Goethe"}
+     
   ];
 
   const quirks = [

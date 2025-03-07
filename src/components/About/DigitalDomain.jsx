@@ -76,6 +76,28 @@ const DigitalDomain = () => {
     }
   ];
 
+  const handleEmailClick = (e) => {
+    e.preventDefault(); // Prevent default anchor action
+    const email = "kuzamayang@gmail.com";
+    const subject = encodeURIComponent("Hello!");
+    const body = encodeURIComponent("I wanted to reach out...");
+  
+    const gmailURL = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`;
+    const mailtoURL = `mailto:${email}?subject=${subject}&body=${body}`;
+  
+    console.log("Opening Gmail:", gmailURL);
+  
+    const newTab = window.open(gmailURL, "_blank");
+  
+    if (!newTab || newTab.closed || typeof newTab.closed === "undefined") {
+      console.log("Gmail failed to open. Falling back to mailto.");
+      window.location.href = mailtoURL;
+    }
+  };
+
+
+  
+
   return (
     <div>
       <h2 className="section-title">Tech Stack & Tools</h2>
@@ -117,11 +139,15 @@ const DigitalDomain = () => {
                 
               </div>
             </div>
-            <div className="border-t border-gray-100 p-4 bg-gray-50">
-              <a href="mailto:kuzamayang@gmail.com" className="text-primary hover:text-primary/80 transition-colors flex items-center gap-1 text-sm">
-                Get a Quote <FaChevronRight size={12} />
-              </a>
-            </div>
+                <div className="border-t border-gray-100 p-4 bg-gray-50">
+                  <a 
+                    href="mailto:kuzamayang@gmail.com"
+                    onClick={handleEmailClick} 
+                    className="text-primary hover:text-primary/80 transition-colors flex items-center gap-1 text-sm cursor-pointer"
+                  >
+                    Get a Quote <FaChevronRight size={12} />
+                  </a>
+                </div>
           </div>
         ))}
       </div>

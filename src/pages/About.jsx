@@ -16,6 +16,26 @@ import PersonalityMosaic from '../components/About/PersonalityMosaic';
 const About = () => {
   const [activeTab, setActiveTab] = useState('digital');
 
+
+const handleEmailClick = () => {
+    const email = "kuzamayang@gmail.com";
+    const subject = encodeURIComponent("Hello!");
+    const body = encodeURIComponent("I wanted to reach out...");
+  
+    const gmailURL = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`;
+    const mailtoURL = `mailto:${email}?subject=${subject}&body=${body}`;
+  
+    console.log("Opening Gmail:", gmailURL);
+  
+    const newTab = window.open(gmailURL, "_blank");
+  
+    if (!newTab || newTab.closed || typeof newTab.closed === "undefined") {
+      console.log("Gmail failed to open. Falling back to mailto.");
+      window.location.href = mailtoURL;
+    }
+  };
+  
+  
   return (
     <div className="page-container">
       {/* Header Section */}
@@ -32,23 +52,30 @@ const About = () => {
               <p className="text-sm italic">This photo was taken on my good side. I don't have a bad side. My mom says I'm perfect.</p>
             </div>
             
-            <div className="mt-6 flex flex-wrap gap-3 justify-center">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-800 text-white rounded-full hover:bg-gray-700 transition-colors">
-                <FaGithub size={20} />
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-2 bg-blue-600 text-white rounded-full hover:bg-blue-500 transition-colors">
-                <FaLinkedin size={20} />
-              </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="p-2 bg-blue-400 text-white rounded-full hover:bg-blue-300 transition-colors">
-                <FaTwitter size={20} />
-              </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="p-2 bg-pink-600 text-white rounded-full hover:bg-pink-500 transition-colors">
-                <FaInstagram size={20} />
-              </a>
-              <a href="mailto:kuzamayang@gmail.com" className="p-2 bg-red-500 text-white rounded-full hover:bg-red-400 transition-colors">
-                <FaEnvelope size={20} />
-              </a>
-            </div>
+            <div className="mt-6 flex flex-wrap gap-4 justify-center">
+  {/* Social Media Buttons */}
+  <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-800 text-white rounded-full hover:bg-gray-700 transition-colors flex items-center justify-center w-12 h-12">
+    <FaGithub size={24} />
+  </a>
+  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-blue-600 text-white rounded-full hover:bg-blue-500 transition-colors flex items-center justify-center w-12 h-12">
+    <FaLinkedin size={24} />
+  </a>
+  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-blue-400 text-white rounded-full hover:bg-blue-300 transition-colors flex items-center justify-center w-12 h-12">
+    <FaTwitter size={24} />
+  </a>
+  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-pink-600 text-white rounded-full hover:bg-pink-500 transition-colors flex items-center justify-center w-12 h-12">
+    <FaInstagram size={24} />
+  </a>
+
+  {/* Email Button with Better Styling */}
+  <button 
+    onClick={handleEmailClick} 
+    className="p-3 bg-red-500 text-white rounded-full hover:bg-red-400 transition-colors flex items-center justify-center w-12 h-12"
+  >
+    <FaEnvelope size={24} />
+  </button>
+</div>
+
           </div>
           <div className="md:col-span-2">
             <h2 className="text-2xl font-bold mb-4 text-primary">Greetings, fellow h0mans!</h2>
