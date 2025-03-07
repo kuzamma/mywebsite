@@ -91,17 +91,20 @@ const Navbar = () => {
         </nav>
 
         {/* Mobile Navigation Menu */}
-        <div className={`md:hidden transition-all duration-300 ${isOpen ? 'opacity-100 py-4' : 'max-h-0 opacity-0'}`}>
+      {isOpen && (
+        <div className="md:hidden transition-all duration-300 opacity-100 py-4">
           <div className="flex flex-col space-y-4">
             <Link to="/" className={`nav-link ${isActive('/') ? 'active' : ''}`} onClick={toggleMenu}>Home</Link>
             <Link to="/about" className={`nav-link ${isActive('/about') ? 'active' : ''}`} onClick={toggleMenu}>About Me</Link>
             <Link to="/portfolio" className={`nav-link ${isActive('/portfolio') ? 'active' : ''}`} onClick={toggleMenu}>Portfolio</Link>
             <Link to="/musings" className={`nav-link ${isActive('/musings') ? 'active' : ''}`} onClick={toggleMenu}>
-              Musings  <FaFeatherAlt className="inline-block ml-1 text-xs text-primary" />
+              Musings <FaFeatherAlt className="inline-block ml-1 text-xs text-primary" />
             </Link>
             <Link to="/secret" className={`nav-link ${isActive('/secret') ? 'active' : ''}`} onClick={toggleMenu}> Secret👀 </Link>
           </div>
         </div>
+      )}
+
       </div>
     </header>
   );

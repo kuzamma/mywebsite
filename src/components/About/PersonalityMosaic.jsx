@@ -277,7 +277,6 @@ const PersonalityMosaic = () => {
     <li>I once Googled “how to Google” because I forgot how to spell “Google.”</li>
     <li>I believe that pineapple on pizza is a hill worth dying on. 🍍🍕</li>
     <li>I’ve accidentally waved back at strangers who weren’t waving at me more times than I’d like to admit.</li>
-    <li>I’m pretty sure my cat judges me more than my boss does.</li>
     <li>I’m convinced that Wi-Fi has a personal vendetta against me.</li>
   </ul>
 </div>

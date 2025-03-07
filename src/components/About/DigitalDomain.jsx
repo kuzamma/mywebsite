@@ -118,7 +118,7 @@ const DigitalDomain = () => {
               </div>
             </div>
             <div className="border-t border-gray-100 p-4 bg-gray-50">
-              <a href="/contact" className="text-primary hover:text-primary/80 transition-colors flex items-center gap-1 text-sm">
+              <a href="mailto:kuzamayang@gmail.com" className="text-primary hover:text-primary/80 transition-colors flex items-center gap-1 text-sm">
                 Get a Quote <FaChevronRight size={12} />
               </a>
             </div>

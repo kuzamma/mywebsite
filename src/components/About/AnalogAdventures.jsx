@@ -97,7 +97,7 @@ const AnalogAdventures = () => {
       name: "Cooking", 
       description: "Turning simple ingredients into questionable masterpieces.",
       image: "https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      story: `I once attempted to make a fancy pasta dish for a dinner party. Everything was going great until I accidentally used cinnamon instead of paprika. I didn’t realize my mistake until my guests took their first bite. Their faces were priceless! To save the day, I declared it an "exotic fusion recipe" and served it with extra cheese. Surprisingly, they loved it and asked for the recipe. Now, "Cinnamon Pasta Surprise" is a running joke at every gathering.`
+      story: `Cooking for me is an adventure. Sometimes I make something amazing, and other times, I create an unintentional chemistry experiment. The real secret ingredient? Denial. If it looks questionable but smells good. I start out excited, and by the end, I’m either victorious or standing in my kitchen, staring at a burnt mess, wondering where it all went wrong. Either way, I still eat it.`
     },
 
     {

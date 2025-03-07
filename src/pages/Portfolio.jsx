@@ -20,7 +20,7 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />, url: "#", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />, label: "Live Demo" }
       ]
     },
     {
@@ -35,7 +35,7 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />, url: "#", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />,  label: "Live Demo" }
       ]
     },
     {
@@ -50,7 +50,7 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />,  url:"", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />,   label: "Live Demo" }
       ]
     },
    
@@ -66,7 +66,7 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />,  url:"", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />,  label: "Live Demo" }
       ]
     },
     {
@@ -81,7 +81,7 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />, url:"", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />,  label: "Live Demo" }
       ]
     },
     {
@@ -96,7 +96,7 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />,  url:"", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />,   label: "Live Demo" }
       ]
     },
     {
@@ -111,7 +111,7 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />, url:"", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />,  label: "Live Demo" }
       ]
     }
   ];
@@ -128,7 +128,7 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />,  url:"", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />,   label: "Live Demo" }
       ]
     },
     {
@@ -142,7 +142,7 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />, url:"", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />,  label: "Live Demo" }
       ]
     },
     {
@@ -156,7 +156,7 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />,  url:"", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />,   label: "Live Demo" }
       ]
     },
     {
@@ -170,7 +170,7 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />, url:"", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />, label: "Live Demo" }
       ]
     },
     
@@ -185,7 +185,7 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />,  url:"", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />,  label: "Live Demo" }
       ]
     },
     
@@ -200,7 +200,7 @@ const Portfolio = () => {
       ],
       links: [
         { icon: <FaGithub />, url: "https://github.com", label: "GitHub" },
-        { icon: <FaExternalLinkAlt />, url:"", label: "Live Demo" }
+        { icon: <FaExternalLinkAlt />, label: "Live Demo" }
       ]
     }
   ];
