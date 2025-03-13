@@ -78,6 +78,9 @@ const Navbar = () => {
               Musings
               <FaFeatherAlt className="inline-block ml-1 text-xs text-primary" />
             </Link>
+
+            
+
             <Link to="/secret" className={`nav-link ${isActive('/secret') ? 'active' : ''}`}>
               Secret
               <span className="ml-1 text-xs text-secondary animate-pulse">👀</span>

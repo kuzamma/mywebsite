@@ -8,6 +8,7 @@ import Portfolio from './pages/Portfolio';
 import Secret from './pages/Secret';
 import Musings from './pages/Musings';
 import MusingDetail from './components/MusingDetail';
+import Photobooth from './pages/Photobooth';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/secret" element={<Secret />} />
             <Route path="/musings" element={<Musings />} />
             <Route path="/musings/:id" element={<MusingDetail />} />
+            <Route path="/photobooth" element={<Photobooth />} />
           </Routes>
         </main>
         <Footer />

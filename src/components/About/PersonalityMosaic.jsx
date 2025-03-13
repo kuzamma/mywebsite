@@ -254,7 +254,7 @@ const PersonalityMosaic = () => {
   <p className="mb-4">
     I can recite the alphabet backwards in under 10 seconds while balancing a spoon on my nose. It's a completely 
     useless talent that I perfected during long commutes and power outages. So far, it has impressed exactly zero 
-    people at parties, but my dog seems mildly entertained. 
+    people at parties. 
   </p>
   
   <h3 className="text-xl font-bold mb-4 text-secondary mt-6">The Career That Never Was</h3>

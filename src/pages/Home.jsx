@@ -101,7 +101,7 @@ const Home = () => {
               onClick={handlePhotoClick}
             >
               <img 
-                src="/images/s.jfif"
+                src="/images/psyduck.gif"
                 alt="Profile" 
                 className="w-56 h-56 md:w-72 md:h-72 rounded-full object-cover border-4 border-white transition-all duration-300 hover:scale-105"
               />
