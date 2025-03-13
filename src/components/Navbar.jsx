@@ -72,7 +72,7 @@ const Navbar = () => {
           <div className="hidden md:flex space-x-6">
             <Link to="/" className={`nav-link ${isActive('/') ? 'active' : ''}`}>Home</Link>
             <Link to="/about" className={`nav-link ${isActive('/about') ? 'active' : ''}`}>About Me</Link>
-            <Link to="/portfolio" className={`nav-link ${isActive('/portfolio') ? 'active' : ''}`}>Portfolio</Link>
+            <Link to="/portfolio" className={`nav-link ${isActive('/portfolio') ? 'active' : ''}`}>Projects</Link>
             
             <Link to="/musings" className={`nav-link ${isActive('/musings') ? 'active' : ''}`}>
               Musings

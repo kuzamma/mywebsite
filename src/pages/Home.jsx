@@ -72,8 +72,13 @@ const Home = () => {
             <span className="text-xs align-top ml-1 text-secondary">*</span>
           </h1>
           <p className="text-lg text-gray-700 mb-8 text-justify">
-            Welcome to my corner of the internet, where learning never stops. When I’m not avoiding responsibilities, I’m probably googling “how to stop procrastinating.” Spoiler: it’s not going well.
+          Welcome to my little corner of the internet—where I dump all the random stuff I do, think about,  and questionable life choices come to party.
+          It’s basically a digital scrapbook, but with more chaos and zero rules. I’m just throwing stuff here—no rules, no regrets.
+             When I’m not busy dodging responsibilities,  I’m probably lost in a rabbit hole of cat videos, messing with code, or Googling
+             “how to adult.” Spoiler: still figuring it out.
+           
           </p>
+          {/*
           <div className="flex flex-wrap gap-4">
             <Link to="/about" className="btn btn-primary flex items-center gap-2">
               About Me <FaArrowRight />
@@ -81,9 +86,9 @@ const Home = () => {
             <Link to="/portfolio" className="btn btn-secondary flex items-center gap-2">
               My Work <FaArrowRight />
             </Link>
-          </div>
+          </div>*/}
           <p className="text-xs text-gray-400 mt-4 italic">
-            * If you’re questioning reality right now, good. You should be. 10% deception.
+            * If you’re questioning reality right now, good. You should be. 10% deception. 
           </p>
           <p className="text-sm text-gray-500 mt-4 font-mono">{deviceMessage}</p>
         </motion.div>

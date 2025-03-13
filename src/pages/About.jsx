@@ -12,6 +12,8 @@ import DigitalDomain from '../components/About/DigitalDomain';
 import AnalogAdventures from '../components/About/AnalogAdventures';
 import WanderlustFlavors from '../components/About/WanderlustFlavors';
 import PersonalityMosaic from '../components/About/PersonalityMosaic';
+import WhatILove from '../components/About/WhatILove'
+
 
 const About = () => {
   const [activeTab, setActiveTab] = useState('digital');
@@ -126,7 +128,7 @@ const handleEmailClick = () => {
             }`}
             aria-selected={activeTab === 'analog'}
           >
-            <FaHiking /> Analog Adventures
+            <FaHiking /> Analog
           </button>
           <button 
             onClick={() => setActiveTab('travel')}
@@ -150,6 +152,19 @@ const handleEmailClick = () => {
           >
             <FaLaughSquint /> just hmm ಥ_ಥ
           </button>
+
+          <button 
+            onClick={() => setActiveTab('WhatILove')}
+            className={`px-4 py-2 rounded-full flex items-center gap-2 transition-all ${
+              activeTab === 'WhatILove' 
+                ? 'bg-dark text-white shadow-md' 
+                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+            }`}
+            aria-selected={activeTab === 'WhatILove'}
+          >
+            <FaLaughSquint /> I love 
+          </button>
+
         </div>
       </AnimatedSection>
 
@@ -158,6 +173,7 @@ const handleEmailClick = () => {
       {activeTab === 'analog' && <AnalogAdventures />}
       {activeTab === 'travel' && <WanderlustFlavors />}
       {activeTab === 'personality' && <PersonalityMosaic />}
+      {activeTab === 'WhatILove' && <WhatILove />}
 
 
   

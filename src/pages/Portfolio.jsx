@@ -270,7 +270,7 @@ const Portfolio = () => {
       <AnimatedSection>
         <h1 className="section-title">My Portfolio</h1>
         <p className="text-lg text-gray-700 mb-8">
-          Here's a collection of projects I've worked on. Each one represents a unique challenge, learning experience, 
+          Some of projects I've worked on. Each one represents a unique challenge, learning experience, 
           and at least three existential crises at 2 AM.
         </p>
 
