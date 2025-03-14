@@ -44,7 +44,7 @@ const WanderlustFlavors = () => {
       location: "Palawan, Philippines", 
       coordinates: [9.8349, 118.7384], // [latitude, longitude]
       image: "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", 
-      description: "Spent three days trying to recreate this Instagram photo. Worth it for the likes.",
+      description: "HEHE",
       favorite: "Fresh seafood and tropical fruits"
     }
   ];

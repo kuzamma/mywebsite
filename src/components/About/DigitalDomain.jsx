@@ -23,7 +23,7 @@ const DigitalDomain = () => {
     {
       icon: <FaCode className="text-primary text-2xl" />,
       title: "Full-Stack Development",
-      description: "From pixel-perfect frontends to robust backends. I'll build your web application faster than you can say 'JavaScript framework'.",
+      description: "From pixel-perfect frontends to robust backends. I'll build your web application faster than you can say 'JavaScript framework' jk haha.",
       technologies: ["React", "Node.js", "TypeScript", "MongoDB"],
       specialNote: "Warning: May include dad jokes in code comments."
     },
@@ -142,7 +142,7 @@ const DigitalDomain = () => {
                 <div className="border-t border-gray-100 p-4 bg-gray-50">
                   <a 
                     href="mailto:kuzamayang@gmail.com"
-                    onClick={handleEmailClick} 
+                    
                     className="text-primary hover:text-primary/80 transition-colors flex items-center gap-1 text-sm cursor-pointer"
                   >
                     Get a Quote <FaChevronRight size={12} />

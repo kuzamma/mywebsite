@@ -212,69 +212,7 @@ const AnalogAdventures = () => {
 
 
     
-    <AnimatedSection delay={0.3}>
-        <h2 className="section-title">Reading List</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4 mb-12">
-          {[
-             { title: "Atomic Habits", author: "James Clear", 
-              cover: "/images/books/ah.jfif",
-              status: "Read",
-              rating: 5 },
-           { title: "Th Courage to be Disliked", author: "Fumitake Koga and Ichiro Kishimi", 
-                cover: "/images/books/tctbd.jfif",
-                status: "Read",
-                rating: 5, 
-                review: "True freedom comes when you stop seeking approval and accept that some people may dislike or disapprove of you." },
-                { title: "A Flicker in the Dark", author: "Stacy Willingham", 
-                  cover: "/images/books/fliker.jfif",
-            status: "Read",
-                  rating: 5
-                  },
-
-            { title: "Dune", author: "Frank Herbert", cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", status: "Read", rating: 4 },
-            { title: "Project Hail Mary", author: "Andy Weir", cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", status: "Reading", rating: null },
-            { title: "The Psychology of Money", author: "Morgan Housel", cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", status: "To Read", rating: null },
-            { title: "The Design of Everyday Things", author: "Don Norman", cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", status: "To Read", rating: null }
-          ].map((book, index) => (
-            <div key={index} className="card p-3 text-center hover:shadow-md transition-shadow relative overflow-hidden group">
-              <div className="h-40 mb-2 bg-gray-200 rounded overflow-hidden">
-                <LazyImage
-                  src={book.cover}
-                  alt={book.title}
-                  className="w-full h-full" />
-              </div>
-              <h4 className="font-bold text-sm line-clamp-1">{book.title}</h4>
-              <p className="text-xs text-gray-600 mb-1 line-clamp-1">{book.author}</p>
-
-              {book.status === "Read" && (
-                <div className="flex justify-center text-yellow-500 text-xs">
-                  {[...Array(5)].map((_, i) => (
-                    <span key={i} className={i < book.rating ? "text-yellow-500" : "text-gray-300"}>★</span>
-                  ))}
-                </div>
-              )}
-
-              <div className={`absolute top-2 right-2 px-2 py-1 text-xs rounded-full text-white ${book.status === "Read" ? "bg-green-500" :
-                  book.status === "Reading" ? "bg-blue-500" :
-                    "bg-gray-500"}`}>
-                {book.status}
-              </div>
-
-              <div className="absolute inset-0 bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                <div className="text-white p-3 text-sm">
-                  <p className="font-bold mb-1">{book.title}</p>
-                  <p className="text-xs mb-2">by {book.author}</p>
-                  {book.status === "Read" ? (
-                    <p className="italic text-xs">" "</p>
-                  ) : (
-                    <p className="italic text-xs">On my {book.status === "Reading" ? "currently reading" : "to-read"} list</p>
-                  )}
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </AnimatedSection></>
+    </>
   );
 };
 

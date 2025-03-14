@@ -54,7 +54,7 @@ const handleEmailClick = () => {
               <p className="text-sm italic">This photo was taken on my good side. I don't have a bad side. My mom says I'm perfect.</p>
             </div>
             
-            <div className="mt-6 flex flex-wrap gap-4 justify-center">
+            <div className="mt-6 flex flex-wrap gap-2 justify-center">
   {/* Social Media Buttons */}
   <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-800 text-white rounded-full hover:bg-gray-700 transition-colors flex items-center justify-center w-12 h-12">
     <FaGithub size={24} />
@@ -68,14 +68,12 @@ const handleEmailClick = () => {
   <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-pink-600 text-white rounded-full hover:bg-pink-500 transition-colors flex items-center justify-center w-12 h-12">
     <FaInstagram size={24} />
   </a>
-
-  {/* Email Button with Better Styling */}
-  <button 
-    onClick={handleEmailClick} 
-    className="p-3 bg-red-500 text-white rounded-full hover:bg-red-400 transition-colors flex items-center justify-center w-12 h-12"
-  >
+  <a href="mailto:kuzamayang@gmail.com" 
+   target="_blank" rel="noopener noreferrer" className="p-3 bg-pink-600 text-white rounded-full hover:bg-pink-500 transition-colors flex items-center justify-center w-12 h-12">
     <FaEnvelope size={24} />
-  </button>
+  </a>
+
+  
 </div>
 
           </div>

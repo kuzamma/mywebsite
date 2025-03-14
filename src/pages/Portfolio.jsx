@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import AnimatedSection from '../components/AnimatedSection';
 import { FaGithub, FaExternalLinkAlt, FaReact, FaNodeJs, FaPython, FaFigma, FaSkull, FaFire, FaJava, FaDocker, FaRobot, FaDatabase, FaGamepad, FaCoffee, FaHeart } from 'react-icons/fa';
-import { SiTailwindcss, SiTypescript, SiMongodb, SiFirebase, SiPostgresql, SiRedis, SiKubernetes, SiRust, SiSwift, SiFlutter, SiUnity, SiSpring } from 'react-icons/si';
+import { SiTailwindcss, SiTypescript, SiMongodb, SiFirebase, SiPostgresql, SiRedis, SiKubernetes, SiRust, SiSwift, SiFlutter, SiUnity, SiSpring, SiMysql } from 'react-icons/si';
 
 const Portfolio = () => {
   const [activeTab, setActiveTab] = useState('professional');
@@ -14,8 +14,9 @@ const Portfolio = () => {
       image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       technologies: [
         { icon: <FaReact />, name: "React" },
+        { icon: <SiTypescript />, name: "TypeScript" },
         { icon: <FaNodeJs />, name: "Node.js" },
-        { icon: <SiMongodb />, name: "MongoDB" },
+        { icon: <SiMysql />, name: "SQL" },
         { icon: <SiTailwindcss />, name: "Tailwind CSS" }
       ],
       links: [
@@ -25,7 +26,7 @@ const Portfolio = () => {
     },
     {
       title: "Task Management App",
-      description: "A productivity application for managing tasks, projects, and team collaboration with real-time updates. Ironically, I procrastinated for three months before finishing it.",
+      description: "A productivity application for managing tasks, projects, and team collaboration with real-time updates. Ironically.",
       image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       technologies: [
         { icon: <FaReact />, name: "React" },
@@ -400,7 +401,9 @@ const Portfolio = () => {
             Fair warning: I will probably overthink everything and ask too many questions.
           </p>
           <a 
-            href="mailto:your.email@example.com" 
+   
+   
+            href="mailto:kuzamayang@gmail.com"
             className="btn btn-primary inline-block"
           >
             Get In Touch

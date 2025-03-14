@@ -25,7 +25,7 @@ const Home = () => {
     const updateDeviceMessage = () => {
       if (window.innerWidth > 768) {
         setDeviceMessage(
-          "Ah, finally! Desktop mode! Now I can truly shine like the diva I am. ✨ Welcome to the big leagues, darling! 😌"
+          "Ah, finally! Desktop mode! Now I can truly shine like the diva I am. ✨ Welcome, darling! 😌"
         );
       } else {
         setDeviceMessage(
@@ -57,7 +57,7 @@ const Home = () => {
   };
 
   return (
-    <div className="page-container">
+    <div className="page-container ">
       <div className="flex flex-col md:flex-row items-center justify-between py-12 md:py-20">
         <motion.div 
           className="md:w-1/2 mb-8 md:mb-0"
@@ -66,18 +66,21 @@ const Home = () => {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            <span className="text-dark">Hello, I'm</span>
+            <span className="text-dark font-handwriting">Hello, I'm</span>
             <br />
-            <span className="text-primary">Yours 🤭</span>
+            <span className="text-primary ">Pysduck </span>
             <span className="text-xs align-top ml-1 text-secondary">*</span>
           </h1>
-          <p className="text-lg text-gray-700 mb-8 text-justify">
-          Welcome to my little corner of the internet—where I dump all the random stuff I do, think about,  and questionable life choices come to party.
-          It’s basically a digital scrapbook, but with more chaos and zero rules. I’m just throwing stuff here—no rules, no regrets.
-             When I’m not busy dodging responsibilities,  I’m probably lost in a rabbit hole of cat videos, messing with code, or Googling
-             “how to adult.” Spoiler: still figuring it out.
+          <p className="text-sm text-gray-600 mb-4 text-justify font-mono" >
+  Welcome to my little corner of the internet—where I dump all the random stuff I do, think about, and questionable life choices come to party.
+  Like, this was supposed to be a just a <span className="font-semibold text-blue-600 italic">portfolio</span>, you know, all <span className="font-extrabold text-green-600">PROFESSIONAL</span> and stuff, then... it all mixed up like a washing machine full of <span className="text-pink-400">socks</span> and <span className="text-yellow-300">glitter</span>, <span className="text-red-500">huhu...</span> well, you see what happened.
+  It’s basically a digital scrapbook, but with more <span className="font-bold text-yellow-700">chaos</span> and <span className="font-extrabold text-purple-600">ZERO RULES</span>. I’m just throwing stuff here—no rules, no regrets. Or maybe a few regrets, but we're ignoring those.
+  When I’m not busy dodging <span className="font-bold text-yellow-700">responsibilities</span>, which, let's be honest, is most of the time hehe, I’m probably lost in a rabbit hole of cat videos, messing with <span className="font-bold text-yellow-700">code that probably won't compile</span>, or Googling “how to adult.” Spoiler: still figuring it out, and honestly, at this point, I'm starting to think 'adulting' is a myth, like <span className="font-bold text-yellow-700">unicorns</span> or a <span className="font-thin text-gray-500">perfectly organized sock drawer</span>.
+  <br/><br/>
+  Oh, and by the way, the content of this website always updates—like, delete, add, modify—depends on what mood I have when I visit it, hahaha. So, expect anything! You might find a heartfelt poem one day, and a rant about my toaster the next. It's a surprise, even for me.
+</p>
            
-          </p>
+         
           {/*
           <div className="flex flex-wrap gap-4">
             <Link to="/about" className="btn btn-primary flex items-center gap-2">
@@ -86,11 +89,11 @@ const Home = () => {
             <Link to="/portfolio" className="btn btn-secondary flex items-center gap-2">
               My Work <FaArrowRight />
             </Link>
-          </div>*/}
+          </div>
           <p className="text-xs text-gray-400 mt-4 italic">
             * If you’re questioning reality right now, good. You should be. 10% deception. 
-          </p>
-          <p className="text-sm text-gray-500 mt-4 font-mono">{deviceMessage}</p>
+          </p>*/} <br/><br/>
+          <p className="text-lg text-gray-500 mt-4 font-handwriting">{deviceMessage}</p>
         </motion.div>
       
 
